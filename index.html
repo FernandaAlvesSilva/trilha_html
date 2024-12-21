@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 01 - HTML</title>
+</head>
+<body>
+    <h1>Introdução ao HTML: <mark>A Base da Web</mark></h1>
+    <h2>Índice</h2>
+ 
+    <ol>
+        <li><a href="#Historia">História dos computadores</a></li>
+        <li><a href="#Clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#Servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#Basica-de">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#Listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#Links">Links de referências</a></li>
+    </ol>
+    <hr>
+
+    <h2 id="Historia">História dos computadores</h2>
+
+    <p>A história dos computadores começa muito antes de termos laptops e smartphones. 
+    No século XIX, Charles Babbage projetou a <i>"Máquina Analítica"</i>, considerada o primeiro modelo de computador programável. 
+    Mas foi no século XX que os computadores começaram a evoluir de verdade, com a criação do <abbr title="Electronic Numerical Integrator and Computer"><strong>ENIAC</strong></abbr>, o primeiro computador eletrônico geral, em 1945. 
+    Com o passar do tempo, os computadores ficaram menores, mais potentes e acessíveis, abrindo caminho para a internet e, consequentemente, para as tecnologias web que usamos hoje.</p>
+    <hr>
+
+    <h2 id="Clients">O que são <i>Clients</i>?</h2> 
+    
+    <p>Quando falamos em desenvolvimento web, o termo <strong>"client"</strong> se refere ao dispositivo ou navegador que um usuário utiliza para acessar um site. 
+    Imagine que você está usando seu navegador (como o Chrome ou o Firefox) para abrir uma página da web.
+    Nesse caso, seu navegador é o  <strong>"client"</strong>.
+    Ele faz requisições para acessar informações hospedadas em um servidor e exibe essas informações para você.</p>
+
+    <hr>
+
+    <h2 id="Servers">O que são <i>Servers</i>?</h2>
+
+    <p>Por outro lado, o <strong>"server"</strong>(servidor) é o local onde as informações e os recursos de um site estão armazenados. 
+    Ele é responsável por receber as requisições feitas pelos clients e enviar as respostas.
+    Em termos simples, o servidor funciona como um <u>entregador de informações,</u> garantindo que os dados de um site cheguem até o navegador do usuário.</p>
+
+    <hr>
+
+    <h2 id="Basica-de">Como é uma estrutura básica de um HTML?</h2>
+
+
+    <p>O <abbr title="HyperText Markup Language"><strong>HTML</strong></abbr>  é a linguagem base para criar páginas da web. 
+    Ele estrutura o conteúdo que será exibido no navegador. 
+    Uma estrutura básica de HTML é bastante simples e tem a seguinte aparência:</p>
+
+    <pre style="background-color: #000504; color: #f0f0f0; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; overflow-x: auto;">
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;head&gt;
+            &lt;title&gt;Minha Primeira Página&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Bem-vindo ao meu site!&lt;/h1&gt;
+            &lt;p&gt;Este é um parágrafo de exemplo.&lt;/p&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+    </pre>
+
+    <p>Aqui está o que cada parte faz:</p>
+
+    <ul>
+        <li>&lt;!DOCTYPE html&gt;: Declara que estamos usando HTML5.</li>
+        <li>&lt;html&gt;: Define o início e o fim do documento HTML. </li>
+        <li>&lt;head&gt;: Contém informações sobre a página, como o título.</li>
+        <li>&lt;body&gt;: É onde colocamos o conteúdo visível ao usuário, como textos, imagens e links.</li>
+    </ul>
+
+    <hr>
+
+    <h2 id="Listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+
+    <p>No HTML, podemos usar listas para organizar informações. Existem dois tipos principais:</p>
+
+    <ol>
+        <li>Listas Ordenadas <sup>(&lt;ol&gt;):</sup></li>
+        <ul>
+            <li>São usadas quando a ordem dos itens é importante.</li>
+            <li>Os itens aparecem numerados.</li>
+            <li>Exemplo:</li>
+            <pre style="background-color: #000504; color: #f0f0f0; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; overflow-x: auto;">
+                &lt;ol&gt;
+                    &lt;li&gt;Primeiro item&lt;/li&gt;
+                    &lt;li&gt;Segundo item&lt;/li&gt;
+                    &lt;li&gt;Terceiro item&lt;/li&gt;
+                &lt;/ol&gt;
+            </pre>
+        </ul>
+        <li>Listas Não Ordenadas <sub>(&lt;ul&gt;):</sub></li>
+        <ul>
+            <li>São usadas quando a ordem dos itens não importa.</li>
+            <li>Os itens aparecem com marcadores (bolinhas, quadrados, etc.).</li>
+            <li>Exemplo:</li>
+            <pre style="background-color: #000504; color: #f0f0f0; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; overflow-x: auto;">
+                &lt;ul&gt;
+                    &lt;li&gt;Primeiro item&lt;/li&gt;
+                    &lt;li&gt;Segundo item&lt;/li&gt;
+                    &lt;li&gt;Terceiro item&lt;/li&gt;
+                &lt;/ul&gt;
+        </ul>
+    </ol>
+    <hr>
+
+
+    <h2 id="Links">Links de referências</h2>
+
+    <p>Se você quiser se aprofundar mais nesses tópicos, confira os links abaixo:</p>
+    <ul>
+        <li><a href="https://www.w3schools.com/html/">W3Schools</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">MDN Web Docs</a></li>
+        <li><a href="https://www.devmedia.com.br/guia/html/37561">DevMedia</a></li>
+    </ul>
+    
+    <p>Com esses conceitos em mente, você já está dando os primeiros passos no universo do desenvolvimento web. 
+    Como dizia Albert Einstein:<blockquote><i>"A imaginação é mais importante que o conhecimento."</i> </blockquote></p>
+  
+    <hr>
+
+    <footer>
+        <p style="text-align: center;"> <small> Desenvolvido por Fernanda Alves - 2024</small></p>
+    </footer>
+
+</body>
+</html>
